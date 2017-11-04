@@ -44,6 +44,7 @@ def turn(a)
   b = input_to_index(input)
   if valid_move?(a, b)
     move(a, b, value="X")
+    display_board(a)
   else 
     turn(a)
   end
