@@ -6,7 +6,8 @@ def DISPLAY_BOARD(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def VALID_MOVE?(a, b)
+
+def valid_move?(a, b)
   if b>9 || b<0
     false
   else
