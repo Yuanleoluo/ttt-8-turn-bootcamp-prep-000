@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-puts "Please enter 1-9:"
+def turn
+  puts "Please enter 1-9:"
+end
