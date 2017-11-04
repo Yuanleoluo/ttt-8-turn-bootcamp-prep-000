@@ -4,3 +4,4 @@ require_relative '../lib/turn'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "welcome to tic tag toe!"
+display_board(board)
