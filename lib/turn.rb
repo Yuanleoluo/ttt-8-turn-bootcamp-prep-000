@@ -38,6 +38,6 @@ def position_taken?(a, b)
   end
 end
 
-def turn()
+def turn(a)
   puts "Please enter 1-9:"
 end
