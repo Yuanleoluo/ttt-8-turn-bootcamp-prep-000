@@ -41,4 +41,10 @@ end
 def turn(a)
   puts "Please enter 1-9:"
   input = gets.strip
+  b = input_to_index(input)
+  if valid_move?(a, b)
+    move(a, b, value="X")
+  else 
+    turn(a)
+  end
 end
