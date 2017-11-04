@@ -22,7 +22,7 @@ def valid_move?(a, b)
   end
 end
 
-def MOVE(array, index, value="X")
+def move(array, index, value="X")
   array[index]=value
 end
 
